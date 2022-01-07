@@ -75,6 +75,27 @@ a.active {
     padding-top: 1vw;
 }
 
+.heading-text:before,
+.heading-text:after {
+    background-color: var(--shadeThree);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+}
+
+.heading-text:before {
+    right: 0.3em;
+    margin-left: -50%;
+}
+
+.heading-text:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
 input[type=text],
 input[type=number] {
     width: 50%;
