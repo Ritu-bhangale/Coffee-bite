@@ -5,55 +5,43 @@
     --shadeFour: #9D9475;
     --shadeFive: #5F5948;
 }
-
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
 }
-
-body {
+body{
     background-color: var(--shadeOne);
 }
-
-header {
+header{
     display: flex;
     flex-direction: row;
     margin-top: 2vh;
 }
-
-header a {
+header a{
     text-decoration: none;
     font-size: 1 em;
     color: var(--shadeFive);
     margin-left: 2vw;
     font-weight: 500;
 }
-
-header a:active,
-a:hover {
+header a:active, a:hover{
     color: var(--shadeFive);
     font-weight: 700;
 }
-
-header img {
+header img{
     width: 8vw;
     margin-left: 4vw;
 }
-
-.navTwo,
-.navThree {
+.navTwo,.navThree{
     margin-top: 7vh;
 }
-
-.navTwo {
+.navTwo{
     margin-left: 6vh;
 }
-
-.navThree {
+.navThree{
     margin-left: 27vw;
 }
-
 .navLine {
     border-left: 1px solid var(--shadeFour);
     height: 2.5rem;
