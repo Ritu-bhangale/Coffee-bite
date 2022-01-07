@@ -16,7 +16,9 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    margin-top: 2vh;
+    margin-top: 0vh;
+    position: fixed;
+    z-index: 100;
 }
 header a{
     text-decoration: none;
@@ -24,6 +26,7 @@ header a{
     color: var(--shadeFive);
     margin-left: 2vw;
     font-weight: 500;
+    visibility: hidden;
 }
 header a:active, a:hover{
     color: var(--shadeFive);
@@ -32,6 +35,7 @@ header a:active, a:hover{
 header img{
     width: 8vw;
     margin-left: 4vw;
+    visibility: none;
 }
 .navTwo,.navThree{
     margin-top: 7vh;
@@ -54,14 +58,45 @@ header img{
     margin-top: 4vh;
 }
 .discoverSticky{
-    margin-left: 17vw;
-    margin-top: 60vh;
+    margin-left: 18vw;
+    margin-top: 75vh;
+    position: fixed;
+    z-index: 100;
 }
 .discoverSticky a{
     color: var(--shadeFour);
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    position: fixed;
 }
 .discoverSticky a:hover{
     font-weight: 400;
+}
+.section img{
+    z-index: -1;
+}
+.sectionNav{
+    position: fixed;
+    z-index: 100;
+    margin-top: 43vh;
+    right: 11vw;
+    align-items: center;
+    align-content: center;
+}
+.sectionNav ul li i{
+    background-color: var(--shadeFive);
+    color: var(--shadeOne);
+    padding: 1vh 1vw;
+    border-radius: 50px;
+}
+.sectionNav ul li{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.section{
+    width: 35%;
+    margin-top: 25vh;
+    margin-left: 40vw;
+    margin-bottom: 10vh;
+    visibility: none;
 }
