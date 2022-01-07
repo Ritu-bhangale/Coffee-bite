@@ -178,3 +178,8 @@ hr {
     background-color: var(--shadeThree);
     color: rgb(49, 48, 48);
 }
+
+.proceed {
+    text-decoration: none;
+    color: var(--shadeFive);
+}
