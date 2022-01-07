@@ -83,11 +83,11 @@ a.active {
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 35%;
+    width: 25%;
 }
 
 .heading-text:before {
-    right: 0.3em;
+    right: 0.5em;
     margin-left: -50%;
 }
 
@@ -108,6 +108,15 @@ input[type=number] {
     color: var(--shadeFive);
 }
 
+#cvv,
+#date {
+    width: 10%;
+}
+
+.date {
+    margin-left: 15vw;
+}
+
 input {
     outline: none;
 }
@@ -118,7 +127,7 @@ label {
 
 .form-part {
     width: 100%;
-    padding-top: 10vh;
+    padding-top: 5vh;
     position: absolute;
     margin-left: 25vw;
 }
@@ -127,7 +136,7 @@ label {
     border: none;
     width: 8vw;
     height: 5vh;
-    margin-left: 40vw;
+    margin-left: 20vw;
     box-sizing: border-box;
     background-color: var(--shadeThree);
     color: rgb(49, 48, 48);
