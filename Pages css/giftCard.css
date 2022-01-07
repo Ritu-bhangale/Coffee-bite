@@ -22,9 +22,10 @@ header {
     margin-top: 2vh;
 }
 
-header a {
+.navTwo a,
+.navThree a {
     text-decoration: none;
-    font-size: 1 em;
+    font-size: 2 em;
     color: var(--shadeFive);
     margin-left: 2vw;
     font-weight: 500;
@@ -58,4 +59,8 @@ header img {
     border-left: 1px solid var(--shadeFour);
     height: 2.5rem;
     margin-left: 0.5vw;
+}
+
+a.active {
+    font-weight: 700;
 }
