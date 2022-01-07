@@ -22,9 +22,10 @@ header {
     margin-top: 2vh;
 }
 
-header a {
+.navTwo a,
+.navThree a {
     text-decoration: none;
-    font-size: 1 em;
+    font-size: 2 em;
     color: var(--shadeFive);
     margin-left: 2vw;
     font-weight: 500;
@@ -59,21 +60,7 @@ header img {
     height: 2.5rem;
     margin-left: 0.5vw;
 }
-/* header */
 
-.homeSection{
-    display: flex;
-    margin-top: 4vh;
-}
-.discoverSticky{
-    margin-left: 17vw;
-    margin-top: 60vh;
-}
-.discoverSticky a{
-    color: var(--shadeFour);
-    text-decoration: none;
-    font-size: 1.5em;
-}
-.discoverSticky a:hover{
-    font-weight: 400;
+a.active {
+    font-weight: 700;
 }
