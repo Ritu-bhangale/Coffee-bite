@@ -1,7 +1,7 @@
 
 var navLinks = document.querySelectorAll("header a");
 var logoImg = document.querySelector(".logo-nav");
-var sectionNav = document.querySelectorAll(".sectionNav ul li")
+var sectionNav = document.querySelectorAll(".sectionNav ul li");
 window.addEventListener('load', revealAnim);
 
 function revealAnim(){
@@ -174,4 +174,59 @@ gsap.to(numbers[1], {
     end: "+=10%",
     scrub: 1
   }
+});
+
+gsap.to(".navLine", {
+  duration: 1,
+  y : 84,
+  ease: "power4.out",
+scrollTrigger: {
+  trigger: ".section3",
+  // markers: true,
+  start: "top 20%",
+  pin: true,
+  end: "+=10%",
+  scrub: 1
+}
+});
+
+gsap.to(numbers[2], {
+  duration: 1,
+  y : -40,
+  ease: "power4.out",
+scrollTrigger: {
+  trigger: ".section3",
+  // markers: true,
+  start: "top 20%",
+  pin: true,
+  end: "+=10%",
+  scrub: 1
+}
+});
+gsap.to(".navLine", {
+  duration: 1,
+  y : 112,
+  ease: "power4.out",
+scrollTrigger: {
+  trigger: ".section4",
+  // markers: true,
+  start: "top 20%",
+  pin: true,
+  end: "+=10%",
+  scrub: 1
+}
+});
+
+gsap.to(numbers[3], {
+  duration: 1,
+  y : -40,
+  ease: "power4.out",
+scrollTrigger: {
+  trigger: ".section4",
+  // markers: true,
+  start: "top 20%",
+  pin: true,
+  end: "+=10%",
+  scrub: 1
+}
 });
