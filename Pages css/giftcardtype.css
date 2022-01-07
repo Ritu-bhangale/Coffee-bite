@@ -75,43 +75,44 @@ a.active {
     padding-top: 1vw;
 }
 
-input[type=text],
-input[type=number] {
-    width: 50%;
-    padding: 8px 0px;
-    margin: 1vh 0;
-    box-sizing: content-box;
-    border: none;
-    border-bottom: 2px solid;
-    background: none;
-    color: var(--shadeFive);
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 600px;
+    min-height: 300px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-input {
-    outline: none;
-}
-
-label {
+.paytm {
     color: #5F5948;
-}
-
-.form-part {
-    width: 100%;
-    padding-top: 10vh;
-    position: absolute;
-    margin-left: 25vw;
-}
-
-.submit {
-    width: 8vw;
-    height: 5vh;
-    margin-left: 40vw;
-    box-sizing: border-box;
-    background-color: var(--shadeThree);
-    color: rgb(49, 48, 48);
-}
-
-.voucher-link {
     text-decoration: none;
-    color: var(--shadeFive);
+}
+
+.content-table thead tr {
+    background-color: var(--shadeFour);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--shadeFour);
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--shadeFour);
 }
