@@ -59,7 +59,7 @@ header img{
 }
 .discoverSticky{
     margin-left: 18vw;
-    margin-top: 75vh;
+    margin-top: 80vh;
     position: fixed;
     z-index: 100;
 }
@@ -92,6 +92,7 @@ header img{
 .sectionNav ul li{
     margin-top: 1vh;
     margin-bottom: 1vh;
+    color: var(--shadeFour);
 }
 .section{
     width: 35%;
