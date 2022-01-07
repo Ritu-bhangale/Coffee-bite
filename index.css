@@ -51,6 +51,16 @@ header img{
     height: 2.5rem;
     margin-left: 0.5vw;
 }
+body::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--shadeOne);        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--shadeFive);    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+  }
 /* header */
 
 .homeSection{
