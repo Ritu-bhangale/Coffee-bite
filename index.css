@@ -16,7 +16,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    margin-top: 4vh;
+    margin-top: 2vh;
 }
 header a{
     text-decoration: none;
@@ -37,8 +37,13 @@ header img{
     margin-top: 7vh;
 }
 .navTwo{
-    margin-left: 4vh;
+    margin-left: 6vh;
 }
 .navThree{
-    margin-left: 30vw;
+    margin-left: 27vw;
+}
+.navLine {
+    border-left: 1px solid var(--shadeFour);
+    height: 2.5rem;
+    margin-left: 0.5vw;
 }
