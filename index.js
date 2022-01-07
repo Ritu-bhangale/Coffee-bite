@@ -120,3 +120,58 @@ gsap.to(numbers[0], {
   }
 });
 
+gsap.to(".navLine", {
+    duration: 1,
+    y : 28,
+    ease: "power4.out",
+  scrollTrigger: {
+    trigger: ".section1",
+    // markers: true,
+    start: "top 20%",
+    pin: true,
+    end: "+=10%",
+    scrub: 1
+  }
+});
+
+gsap.to(numbers[0], {
+    duration: 1,
+    y : -40,
+    ease: "power4.out",
+  scrollTrigger: {
+    trigger: ".section1",
+    // markers: true,
+    start: "top 20%",
+    pin: true,
+    end: "+=10%",
+    scrub: 1
+  }
+});
+
+gsap.to(".navLine", {
+    duration: 1,
+    y : 56,
+    ease: "power4.out",
+  scrollTrigger: {
+    trigger: ".section2",
+    // markers: true,
+    start: "top 20%",
+    pin: true,
+    end: "+=10%",
+    scrub: 1
+  }
+});
+
+gsap.to(numbers[1], {
+    duration: 1,
+    y : -40,
+    ease: "power4.out",
+  scrollTrigger: {
+    trigger: ".section2",
+    // markers: true,
+    start: "top 20%",
+    pin: true,
+    end: "+=10%",
+    scrub: 1
+  }
+});
