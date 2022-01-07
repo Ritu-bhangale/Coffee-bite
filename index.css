@@ -1,0 +1,44 @@
+:root {
+    --shadeOne: #FEFCF8;
+    --shadeTwo: #D9D1BB;
+    --shadeThree: #C5BC9F;
+    --shadeFour: #9D9475;
+    --shadeFive: #5F5948;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+body{
+    background-color: var(--shadeOne);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+}
+header a{
+    text-decoration: none;
+    font-size: 1 rem;
+    color: var(--shadeFive);
+    margin-left: 2vw;
+    font-weight: 500;
+}
+header a:active, a:hover{
+    color: var(--shadeFive);
+    font-weight: 700;
+}
+header img{
+    width: 8vw;
+    margin-left: 4vw;
+}
+.navTwo,.navThree{
+    margin-top: 7vh;
+}
+.navTwo{
+    margin-left: 4vh;
+}
+.navThree{
+    margin-left: 30vw;
+}
