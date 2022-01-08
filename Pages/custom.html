@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom- Coffee bite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Pages css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo-nav">
+            <img src="/Image/logo.png" alt="logo">
+        </div>
+        <div class="navTwo">
+            <a href="recommended.html">Recommended</a>
+            <a href="custom.html" style="font-weight: 700;">Custom</a>
+            <a href="giftCard.html">Gift Card</a>
+            <a href="rewards.html">Rewards</a>
+        </div>
+        <div class="navThree">
+            <a href="ambience.html">Ambience</a>
+            <a href="review.html">Review Us</a>
+        </div>
+    </header>
+    <div class="customNav"></div>
+    <div class="blackcircle circle1">
+        <svg width="50" height="50">
+            <circle cx="50%" cy="50%" r="8" fill = "#252116"/>
+        </svg>
+    </div>
+    <div class="circles">
+        <div class="circle circle1">
+            <svg width="50" height="50">
+                <circle cx="50%" cy="50%" r="8"/>
+            </svg>
+            <p>Size</p>
+        </div>
+        <div class="circle">
+            <svg width="50" height="50">
+                <circle cx="50%" cy="50%" r="8"/>
+            </svg>
+            <p>Milk</p>
+        </div>
+        <div class="circle">
+            <svg width="50" height="50">
+                <circle cx="50%" cy="50%" r="8"/>
+            </svg>
+            <p>Flavour</p>
+        </div>
+        <div class="circle">
+            <svg width="50" height="50">
+                <circle cx="50%" cy="50%" r="8"/>
+            </svg>
+            <p>Crema</p>
+        </div>
+        <div class="circle">
+            <svg width="50" height="50">
+                <circle cx="50%" cy="50%" r="8"/>
+            </svg>
+            <p>Toppings</p>
+        </div>
+        <div class="circle">
+            <svg width="50" height="50">
+                <circle cx="50%" cy="50%" r="8"/>
+            </svg>
+            <p>Add Ons</p>
+        </div>
+        <div class="circle">
+            <svg width="50" height="50">
+                <circle cx="50%" cy="50%" r="8"/>
+            </svg>
+            <p>Ready</p>
+        </div>
+    </div>
+    <div class="itemsChoice">
+        <div class="sizechoice choice">
+            <h2>What you will like to have today?</h2>
+            <div class="sizes box">
+                <div class="size card">
+                    <img src="/Image/Custom/Size/economy.png" alt="" class="image">
+                    <p class="para">Economy</p>
+                    <div class="checkbox" onclick="tick()"></div>
+                </div>
+                <div class="size card">
+                    <img src="/Image/Custom/Size/premiere.png" alt="" class="image">
+                    <p class="para">Premiere</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="size card">
+                    <img src="/Image/Custom/Size/grand.png" alt="" class="image">
+                    <p class="para">Grand</p>
+                    <div class="checkbox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="milkchoice choice">
+            <h2>Give a shot to vegan milk!</h2>
+            <div class="milks box">
+                <div class="milk card">
+                    <img src="/Image/Custom/Milk/coconut.png" alt="" class="image">
+                    <p class="para">Coconut</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="milk card">
+                    <img src="/Image/Custom/Milk/almond.png" alt="" class="image">
+                    <p class="para">Almond</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="milk card">
+                    <img src="/Image/Custom/Milk/oat.png" alt="" class="image">
+                    <p class="para">Oat</p>
+                    <div class="checkbox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="flavourchoice choice">
+            <h2>Choose a flavour of your choice!</h2>
+            <div class="flavours box">
+                <div class="flavour card">
+                    <img src="/Image/recommended/cappucino.png" alt="" class="image">
+                    <p class="para">Cappuccino</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="flavour card">
+                    <img src="/Image/recommended/expresso.png" alt="" class="image">
+                    <p class="para">Expresso</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="flavour card">
+                    <img src="/Image/recommended/Latte.png" alt="" class="image">
+                    <p class="para">Latte</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="flavour card">
+                    <img src="/Image/recommended/Mocha.png" alt="" class="image">
+                    <p class="para">Macho</p>
+                    <div class="checkbox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="cremachoice choice">
+            <h2>Choose crema!</h2>
+            <div class="cremas box">
+                <div class="crema card">
+                    <img src="/Image/recommended/Latte.png" alt="" class="image">
+                    <p class="para">Thin</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="crema card">
+                    <img src="/Image/recommended/cappucino.png" alt="" class="image">
+                    <p class="para">Thick</p>
+                    <div class="checkbox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="toppingchoice choice">
+            <h2>What topping will you like to have today?</h2>
+            <div class="toppings box">
+                <div class="topping card">
+                    <img src="/Image/Custom/Toppings/chocolate.png" alt="" class="image">
+                    <p class="para">Chocolate</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="topping card">
+                    <img src="/Image/Custom/Toppings/marshmellow.png" alt="" class="image">
+                    <p class="para">Marshmellow</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="topping card">
+                    <img src="/Image/Custom/Toppings/caramel.png" alt="" class="image">
+                    <p class="para">Caramel</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="topping card">
+                    <img src="/Image/Custom/Toppings/syrup.png" alt="" class="image">
+                    <p class="para">Chocolate Syrup</p>
+                    <div class="checkbox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="addchoice choice">
+            <h2>Grab a bite with your coffee!</h2>
+            <div class="adds box">
+                <div class="add card">
+                    <img src="/Image/Custom/add/brownie.png" alt="" class="image">
+                    <p class="para">Brownie</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="add card">
+                    <img src="/Image/Custom/add/cookie.png" alt="" class="image">
+                    <p class="para">Cookie</p>
+                    <div class="checkbox"></div>
+                </div>
+                <div class="add card">
+                    <img src="/Image/Custom/add/cheesecake.png" alt="" class="image">
+                    <p class="para">Cheese Cake</p>
+                    <div class="checkbox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button><a href="#review">Make</a></button>
+        </div>
+    </div>
+    <div class="review" id="review"> 
+        <h2>Wait! Your coffee is in the making!</h2>
+        <a href="/Pages/paytm.html"><img src="/Image/home/background.svg" alt=""></a>
+    </div>
+</body>
+</html>
