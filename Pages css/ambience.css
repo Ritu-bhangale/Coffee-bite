@@ -1,0 +1,123 @@
+:root {
+    --shadeOne: #FEFCF8;
+    --shadeTwo: #D9D1BB;
+    --shadeThree: #C5BC9F;
+    --shadeFour: #9D9475;
+    --shadeFive: #5F5948;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-color: var(--shadeOne);
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+
+.navTwo a,
+.navThree a {
+    text-decoration: none;
+    font-size: 2 em;
+    color: var(--shadeFive);
+    margin-left: 2vw;
+    font-weight: 500;
+}
+
+header a:active,
+a:hover {
+    color: var(--shadeFive);
+    font-weight: 700;
+}
+
+header img {
+    width: 8vw;
+    margin-left: 4vw;
+}
+
+.navTwo,
+.navThree {
+    margin-top: 7vh;
+}
+
+.navTwo {
+    margin-left: 6vh;
+}
+
+.navThree {
+    margin-left: 27vw;
+}
+
+.navLine {
+    border-left: 1px solid var(--shadeFour);
+    height: 2.5rem;
+    margin-left: 0.5vw;
+}
+
+a.active {
+    font-weight: 700;
+}
+
+.heading-text {
+    font-size: 1.5rem;
+    margin-right: 25.7vw;
+}
+
+.first-div {
+    display: flex;
+    margin-left: 16vw;
+    margin-top: 10vh;
+}
+
+.imag-day {
+    margin-top: 10vhh;
+    margin-left: 10vw;
+    /* margin-bottom: 400vh; */
+}
+
+.about-para {
+    margin-left: 0.9vw;
+    margin-top: .3vh;
+}
+
+.button {
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+
+.branches {
+    color: var(--shadeFive);
+    background-color: var(--shadeThree);
+    border: none;
+    width: 8vw;
+    height: 5vh;
+}
+
+.second-part {
+    display: flex;
+}
+
+.image-night {
+    margin-left: 6.9vw;
+    margin-top: 2vh;
+}
+
+.second-text {
+    margin-left: 12vw;
+    margin-top: 20vh;
+    font-size: 2rem;
+    color: var(--shadeFive);
+    font-weight: 600;
+}
+
+.material-icons {
+    size: 20%;
+}
