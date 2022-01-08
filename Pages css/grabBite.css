@@ -183,3 +183,86 @@ hr {
     text-decoration: none;
     color: var(--shadeFive);
 }
+
+body::-webkit-scrollbar {
+    width: 6px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--shadeOne);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--shadeFour);
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+}
+
+footer {
+    background-color: var(--shadeTwo);
+    margin-top: 30vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    color: #5F5948;
+}
+
+.columns {
+    display: flex;
+}
+
+.row {
+    margin-left: 8vw;
+}
+
+.row p {
+    margin-top: 1vh;
+    margin-bottom: 0px;
+}
+
+.social i {
+    color: var(--shadeFour);
+    margin-right: 1vw;
+}
+
+.Payment-Methods {
+    color: var(--shadeFour);
+}
+
+.column4 h2 {
+    font-size: 95%;
+    margin-left: 40vh;
+    font-weight: 400;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+.social,
+.Payment-Methods {
+    margin-left: 40vh;
+    color: var(--shadeFour);
+}
+
+.column5 {
+    margin-top: 5vh;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--shadeOne);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--shadeFour);
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+}

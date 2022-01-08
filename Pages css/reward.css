@@ -66,60 +66,79 @@ a.active {
     font-weight: 700;
 }
 
+.rate {
+    display: flex;
+    margin-left: 28vw;
+    margin-top: 12vh;
+}
+
 .heading-text {
-    font-size: 1.5rem;
-    margin-right: 25.7vw;
-}
-
-.first-div {
-    display: flex;
-    margin-left: 16vw;
-    margin-top: 10vh;
-}
-
-.imag-day {
-    margin-top: 10vhh;
-    margin-left: 10vw;
-    /* margin-bottom: 400vh; */
-}
-
-.about-para {
-    margin-left: 0.9vw;
-    margin-top: .3vh;
-}
-
-.button {
-    margin-top: 5vh;
-    margin-left: 4vw;
-}
-
-.branches {
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: Playlist;
     color: var(--shadeFive);
-    background-color: var(--shadeThree);
-    border: none;
-    width: 8vw;
-    height: 5vh;
 }
 
-.second-part {
-    display: flex;
+.table-ele {
+    margin-left: 28vw;
+    margin-top: 8vh;
 }
 
-.image-night {
-    margin-left: 6.9vw;
+.heading2 {
+    font-weight: 200;
+    font-size: 1.1rem;
+    font-family: Playlist;
+    color: var(--shadeFive);
+}
+
+.money {
     margin-top: 2vh;
-}
-
-.second-text {
-    margin-left: 12vw;
-    margin-top: 20vh;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: Playlist;
+    margin-left: 5vw;
     color: var(--shadeFive);
-    font-weight: 600;
 }
 
-.material-icons {
-    size: 20%;
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 600px;
+    min-height: 300px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin-top: 4vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.paytm {
+    color: #5F5948;
+    text-decoration: none;
+}
+
+.content-table thead tr {
+    background-color: var(--shadeFour);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--shadeFour);
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--shadeFour);
 }
 
 footer {

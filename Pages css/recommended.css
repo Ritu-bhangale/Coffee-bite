@@ -5,21 +5,25 @@
     --shadeFour: #9D9475;
     --shadeFive: #5F5948;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
 }
-body{
+
+body {
     background-color: var(--shadeOne);
 }
-header{
+
+header {
     display: flex;
     flex-direction: row;
     margin-top: 2vh;
     z-index: 100;
 }
-header a{
+
+header a {
     text-decoration: none;
     font-size: 1 em;
     color: var(--shadeFive);
@@ -27,106 +31,144 @@ header a{
     font-weight: 500;
     /* visibility: hidden; */
 }
-header a:active, a:hover{
+
+header a:active,
+a:hover {
     color: var(--shadeFive);
     font-weight: 700;
 }
-header img{
+
+header img {
     width: 8vw;
     margin-left: 4vw;
     visibility: none;
 }
-.navTwo,.navThree{
+
+.navTwo,
+.navThree {
     margin-top: 7vh;
 }
-.navTwo{
+
+.navTwo {
     margin-left: 6vh;
 }
-.navThree{
+
+.navThree {
     margin-left: 27vw;
 }
+
 .navLine {
     border-left: 1px solid var(--shadeFour);
     height: 2.5rem;
     margin-left: 0.5vw;
 }
+
 body::-webkit-scrollbar {
-    width: 6px;               /* width of the entire scrollbar */
-  }
-  body::-webkit-scrollbar-track {
-    background: var(--shadeOne);        /* color of the tracking area */
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--shadeFour);    /* color of the scroll thumb */
-    border-radius: 10px;       /* roundness of the scroll thumb */
-  }
+    width: 6px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--shadeOne);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--shadeFour);
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+}
+
+
 /* header */
-ul{
+
+ul {
     list-style: none;
 }
-.sectionHero{
+
+.sectionHero {
     margin-top: 5vh;
     margin-left: 5vw;
 }
-.sectionDrink{
+
+.sectionDrink {
     display: flex;
 }
-.titleTop{
+
+.titleTop {
     display: flex;
     margin-bottom: 2vh;
 }
-.titleTop i{
+
+.titleTop i {
     margin-left: 12vw;
     color: var(--shadeThree);
 }
-.title p{
+
+.title p {
     margin-left: 23vw;
 }
-.title{
+
+.title {
     margin-bottom: 8vh;
 }
-.middleSection .lists, .bottomSection .lists{
+
+.middleSection .lists,
+.bottomSection .lists {
     display: flex;
     margin-top: 1.5vh;
 }
-.middleSection .lists ul.category li, .bottomSection .lists ul.category li{
+
+.middleSection .lists ul.category li,
+.bottomSection .lists ul.category li {
     text-align: start;
     margin-top: 0.2vh;
     color: var(--shadeFive);
 }
-.middleSection .lists ul.property li, .bottomSection .lists ul.property li{
+
+.middleSection .lists ul.property li,
+.bottomSection .lists ul.property li {
     text-align: end;
     margin-top: 0.2vh;
     color: var(--shadeFour);
 }
-.middleSection .lists ul.property{
+
+.middleSection .lists ul.property {
     margin-left: 25vw;
 }
-.bottomSection .lists ul.property{
+
+.bottomSection .lists ul.property {
     margin-left: 27vw;
 }
-.bottomSection{
+
+.bottomSection {
     margin-top: 5vh;
 }
-.infocard{
+
+.infocard {
     width: 35vw;
     margin-top: 10vh;
     margin-left: 10vw;
     margin-bottom: 12vh;
 }
-.titleTop h1{
+
+.titleTop h1 {
     font-size: 1.6em;
     width: 24vw;
     color: black;
 }
-.sectionImage{
+
+.sectionImage {
     margin-top: 5vh;
     margin-left: 10vw;
 }
-.sectionImage img{
+
+.sectionImage img {
     width: 70%;
 }
-.sectionNav{
+
+.sectionNav {
     position: fixed;
     z-index: 100;
     margin-top: 23vh;
@@ -134,47 +176,123 @@ ul{
     align-items: center;
     align-content: center;
 }
-.sectionNav ul li i{
+
+.sectionNav ul li i {
     background-color: var(--shadeFive);
     color: var(--shadeOne);
     padding: 1vh 1vw;
     border-radius: 50px;
 }
-.sectionNav ul li{
+
+.sectionNav ul li {
     margin-top: 1vh;
     margin-bottom: 1vh;
     color: var(--shadeFour);
 }
-.section{
+
+.section {
     width: 35%;
     margin-top: 25vh;
     margin-left: 40vw;
     margin-bottom: 10vh;
     visibility: none;
 }
-.sectionImage button a{
+
+.sectionImage button a {
     color: var(--shadeOne);
     text-decoration: none;
 }
-.sectionImage button a:hover{
+
+.sectionImage button a:hover {
     color: var(--shadeOne);
     text-decoration: none;
     font-weight: 400;
 }
-button{
+
+button {
     background-color: var(--shadeFive);
     margin-left: 18vw;
     margin-top: 8vh;
     padding: 2vh 2vw;
     border: none;
 }
-.sectionImage button i{
+
+.sectionImage button i {
     margin-left: 1vw;
     color: var(--shadeOne);
 }
-.sectionDrink{
+
+.sectionDrink {
     margin-bottom: 10vh;
 }
+
+
 /* h2{
     color: var(--shadeFive);
 } */
+
+footer {
+    background-color: var(--shadeTwo);
+    margin-top: 30vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    color: #5F5948;
+}
+
+.columns {
+    display: flex;
+}
+
+.row {
+    margin-left: 8vw;
+}
+
+.row p {
+    margin-top: 1vh;
+    margin-bottom: 0px;
+}
+
+.social i {
+    color: var(--shadeFour);
+    margin-right: 1vw;
+}
+
+.Payment-Methods {
+    color: var(--shadeFour);
+}
+
+.column4 h2 {
+    font-size: 95%;
+    margin-left: 40vh;
+    font-weight: 400;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+.social,
+.Payment-Methods {
+    margin-left: 40vh;
+    color: var(--shadeFour);
+}
+
+.column5 {
+    margin-top: 5vh;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--shadeOne);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--shadeFour);
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+}
