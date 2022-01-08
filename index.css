@@ -19,6 +19,7 @@ header{
     margin-top: 0vh;
     position: fixed;
     z-index: 100;
+    background-color: var(--shadeOne);
 }
 header a{
     text-decoration: none;
@@ -66,6 +67,7 @@ body::-webkit-scrollbar {
 .homeSection{
     display: flex;
     margin-top: 4vh;
+    /* background-image: url(/Image/home/background.svg); */
 }
 .discoverSticky{
     margin-left: 18vw;
